@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    android:gravity="center"
+    tools:context=".MainActivity">
+
+<LinearLayout
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_gravity="center"
+    android:gravity="center"
+    >
+<!-- <Button-->
+<!--     android:id="@+id/btn_intent"-->
+<!--     android:layout_marginTop="20dp"-->
+<!--     android:layout_width="wrap_content"-->
+<!--     android:layout_height="wrap_content"-->
+<!--     android:text="Intent"-->
+<!--     android:gravity="center"-->
+<!--     android:layout_gravity="center"-->
+<!--     android:textStyle="italic"-->
+<!--     android:textSize="15sp"-->
+<!--     android:textColor="@color/white"/>-->
+
+<!-- <Button-->
+<!--     android:id="@+id/btn_Recycler"-->
+<!--     android:layout_marginTop="10dp"-->
+<!--     android:layout_width="wrap_content"-->
+<!--     android:layout_height="wrap_content"-->
+<!--     android:text="Recycler View"-->
+<!--     android:gravity="center"-->
+<!--     android:layout_gravity="center"-->
+<!--     android:textStyle="italic"-->
+<!--     android:textSize="15sp"-->
+<!--     android:textColor="@color/white"/>-->
+<!-- <Button-->
+<!--     android:layout_marginTop="10dp"-->
+<!--     android:layout_width="wrap_content"-->
+<!--     android:layout_height="wrap_content"-->
+<!--     android:text="fragment"-->
+<!--     android:gravity="center"-->
+<!--     android:layout_gravity="center"-->
+<!--     android:textStyle="italic"-->
+<!--     android:textSize="15sp"-->
+<!--     android:textColor="@color/white"/>-->
+<!-- <Button-->
+<!--     android:id="@+id/btn_Interstitial"-->
+<!--     android:layout_marginTop="10dp"-->
+<!--     android:layout_width="wrap_content"-->
+<!--     android:layout_height="wrap_content"-->
+<!--     android:text="Interstitial Ads"-->
+<!--     android:gravity="center"-->
+<!--     android:layout_gravity="center"-->
+<!--     android:textStyle="italic"-->
+<!--     android:textSize="15sp"-->
+<!--     android:textColor="@color/white"/>-->
+<!-- <Button-->
+<!--     android:id="@+id/native_ads"-->
+<!--     android:layout_marginTop="10dp"-->
+<!--     android:layout_width="wrap_content"-->
+<!--     android:layout_height="wrap_content"-->
+<!--     android:text="Native ads"-->
+<!--     android:gravity="center"-->
+<!--     android:layout_gravity="center"-->
+<!--     android:textStyle="italic"-->
+<!--     android:textSize="15sp"-->
+<!--     android:textColor="@color/white"/>-->
+<!-- <Button-->
+<!--     android:id="@+id/btn_volley"-->
+<!--     android:layout_marginTop="10dp"-->
+<!--     android:layout_width="wrap_content"-->
+<!--     android:layout_height="wrap_content"-->
+<!--     android:text="volley library"-->
+<!--     android:gravity="center"-->
+<!--     android:layout_gravity="center"-->
+<!--     android:textStyle="italic"-->
+<!--     android:textSize="15sp"-->
+<!--     android:textColor="@color/white"/>-->
+<!-- <Button-->
+<!--     android:id="@+id/btn_fwvp"-->
+<!--     android:layout_marginTop="10dp"-->
+<!--     android:layout_width="wrap_content"-->
+<!--     android:layout_height="wrap_content"-->
+<!--     android:text="fragment with viewPager"-->
+<!--     android:gravity="center"-->
+<!--     android:layout_gravity="center"-->
+<!--     android:textStyle="italic"-->
+<!--     android:textSize="15sp"-->
+<!--     android:textColor="@color/white"/>-->
+ <Button
+     android:backgroundTint="@android:color/holo_orange_dark"
+     android:id="@+id/btn_notify"
+     android:layout_marginTop="10dp"
+     android:layout_width="300dp"
+     android:layout_height="wrap_content"
+     android:text="notifications"
+     android:gravity="center"
+     android:layout_gravity="center"
+     android:textStyle="bold"
+     android:textSize="15sp"
+     android:textColor="@color/black"/>
+ <Button
+     android:backgroundTint="@android:color/holo_orange_dark"
+     android:id="@+id/btn_cnotify"
+     android:layout_marginTop="10dp"
+     android:layout_width="300dp"
+     android:layout_height="wrap_content"
+     android:text="Expandable notification"
+     android:gravity="center"
+     android:layout_gravity="center"
+     android:textStyle="bold"
+     android:textSize="15sp"
+     android:textColor="@color/black"/>
+ <Button
+     android:backgroundTint="@android:color/holo_orange_dark"
+     android:id="@+id/btn_cnotifyui"
+     android:layout_marginTop="10dp"
+     android:layout_width="300dp"
+     android:layout_height="wrap_content"
+     android:text="custom notification"
+     android:gravity="center"
+     android:layout_gravity="center"
+     android:textStyle="bold"
+     android:textSize="15sp"
+     android:textColor="@color/black"/>
+ <Button
+     android:backgroundTint="@android:color/holo_orange_dark"
+     android:id="@+id/btn_replynotify"
+     android:layout_marginTop="10dp"
+     android:layout_width="300dp"
+     android:layout_height="wrap_content"
+     android:text="notification reply"
+     android:gravity="center"
+     android:layout_gravity="center"
+     android:textStyle="bold"
+     android:textSize="15sp"
+     android:textColor="@color/black"/>
+ <Button
+     android:backgroundTint="@android:color/holo_orange_dark"
+     android:id="@+id/btn_timernotification"
+     android:layout_marginTop="10dp"
+     android:layout_width="300dp"
+     android:layout_height="wrap_content"
+     android:text=" timer notification "
+     android:gravity="center"
+     android:layout_gravity="center"
+     android:textStyle="bold"
+     android:textSize="15sp"
+     android:textColor="@color/black"/>
+<!-- <Button-->
+<!--     android:id="@+id/btn_mqtt"-->
+<!--     android:layout_marginTop="10dp"-->
+<!--     android:layout_width="wrap_content"-->
+<!--     android:layout_height="wrap_content"-->
+<!--     android:text="mqtt"-->
+<!--     android:gravity="center"-->
+<!--     android:layout_gravity="center"-->
+<!--     android:textStyle="italic"-->
+<!--     android:textSize="15sp"-->
+<!--     android:textColor="@color/white"/>-->
+<!-- <Button-->
+<!--     android:layout_marginTop="10dp"-->
+<!--     android:layout_width="wrap_content"-->
+<!--     android:layout_height="wrap_content"-->
+<!--     android:text="&#45;&#45;&#45;&#45;"-->
+<!--     android:gravity="center"-->
+<!--     android:layout_gravity="center"-->
+<!--     android:textStyle="italic"-->
+<!--     android:textSize="15sp"-->
+<!--     android:textColor="@color/white"/>-->
+<!-- <Button-->
+<!--     android:layout_marginTop="10dp"-->
+<!--     android:layout_width="wrap_content"-->
+<!--     android:layout_height="wrap_content"-->
+<!--     android:text="&#45;&#45;&#45;&#45;"-->
+<!--     android:gravity="center"-->
+<!--     android:layout_gravity="center"-->
+<!--     android:textStyle="italic"-->
+<!--     android:textSize="15sp"-->
+<!--     android:textColor="@color/white"/>-->
+<!-- <Button-->
+<!--     android:layout_marginTop="10dp"-->
+<!--     android:layout_width="wrap_content"-->
+<!--     android:layout_height="wrap_content"-->
+<!--     android:text="&#45;&#45;&#45;&#45;"-->
+<!--     android:gravity="center"-->
+<!--     android:layout_gravity="center"-->
+<!--     android:textStyle="italic"-->
+<!--     android:textSize="15sp"-->
+<!--     android:textColor="@color/white"/>-->
+</LinearLayout>
+
+
+</LinearLayout>
+

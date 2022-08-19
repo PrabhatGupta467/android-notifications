@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".InterstitialAds">
+
+    <LinearLayout
+        android:id="@+id/btnLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/cacheAd"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_margin="5dp"
+            android:text="cache ad"
+            android:clickable="true"/>
+
+        <Button
+            android:id="@+id/loadAd"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_margin="5dp"
+            android:enabled="false"
+            android:text="load ad"
+            android:clickable="true"
+            />
+
+        <Button
+            android:id="@+id/closeAd"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_margin="5dp"
+            android:text="@string/close_ad"
+            android:clickable="true"/>
+    </LinearLayout>
+
+    <FrameLayout
+        android:id="@+id/adview"
+        android:layout_width="288dp"
+        android:layout_height="314dp"
+        android:gravity="center"
+        android:background="@android:color/transparent"
+        android:layout_gravity="center"
+        android:visibility="gone" />
+
+</LinearLayout>
